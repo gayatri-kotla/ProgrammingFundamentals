@@ -2,7 +2,8 @@ package com.gradedproject.q2;
 import java.util.Scanner;
 public class PowerOfANum {
 	public static int power(int x, int n) {
-		if (n==0) {
+		if (n==0) 
+		{
 			return 1;
 		}
 		return x*power(x, --n);
