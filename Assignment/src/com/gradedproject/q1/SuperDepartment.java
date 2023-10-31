@@ -1,33 +1,32 @@
 package com.gradedproject.q1;
 
 public class SuperDepartment {
-	public String departmentName() {
+	public String departmentName() 
+	{
 		String str = "Super Department";
 		return str;
 	}
 
-	public String getTodaysWork() {
+	public String getTodaysWork() 
+	{
 		String str = "No Work as of now";
 		return str;
 	}
 
-	public String getWorkDeadline() {
+	public String getWorkDeadline() 
+	{
 		String str = "nil";
 		return str;
 	}
 
-	public String isTodayAHoliday() {
+	public String isTodayAHoliday()
+	{
 		String str = "Today is not a holiday";
 		return str;
 	}
 
-
-	
-		
-			
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+public static void main(String[] args) {
+// TODO Auto-generated method stub
 //SuperDepartment sd = new SuperDepartment();
 HrDepartment Hr = new HrDepartment();
 TechDepartment Tech = new TechDepartment();
