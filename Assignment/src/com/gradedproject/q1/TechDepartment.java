@@ -3,17 +3,20 @@ package com.gradedproject.q1;
 
 public class TechDepartment extends SuperDepartment {
 	//String res = super.isTodayAHoliday();
-	public String departmentName() {
+	public String departmentName()
+	{
 		String str = "Tech Department";
 		return str;
 	}
 
-	public String getTodaysWork() {
+	public String getTodaysWork() 
+	{
 		String str = "Complete coding of Module 1";
 		return str;
 	}
 
-	public String getWorkDeadline() {
+	public String getWorkDeadline()
+	{
 		String str = "Complete by EOD";
 		return str;
 	}
